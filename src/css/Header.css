@@ -1,0 +1,89 @@
+.container {
+    background-color: blue;
+    margin: auto;
+    display: block;
+    padding: 10px 15px;
+    align-items: center;
+}
+
+.main-navigation {
+    display: block;
+    background-color: rgb(0, 255, 136);
+    height: 50px;
+    float:right;
+    max-height: 340px;
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.dropdown-list {
+    border-radius: 2px;
+}
+
+ul {
+background: rgb(255, 255, 255);
+list-style: none;
+margin: 0;
+padding-left: 0;
+float:left;
+}
+
+li {
+color: #000000;
+background: rgb(255, 255, 255);
+display: block;
+float:left;
+padding-left: 5px;
+padding-right: 5px;
+position: relative;
+text-decoration: none;
+transition-duration: 0.5s;
+}
+
+li a {
+    color: #000000;
+}
+
+li a:hover {
+    color: rgb(255, 77, 0);
+}
+
+li:hover {
+    color: rgb(255, 77, 0);
+    cursor: pointer;
+}
+
+.dropdown {
+    background: orange;
+    visibility: hidden;
+    opacity: 0;
+    min-width: 5rem;
+    position: absolute;
+    transition: all 0.5s ease;
+    margin-top: 1rem;
+    left: 0;
+    display: none;
+}
+
+ul li:hover > ul,
+.dropdown:hover {
+    visibility: visible;
+    opacity: 1;
+    display: block;
+}
+
+.dropdown li {
+clear: both;
+width: 100%;
+}
+
+a.navbar-brand{
+    color: white;
+}
+
+main nav:before {
+    background-color: rgba(255, 255, 255, 0.5)
+}

@@ -1,0 +1,15 @@
+html, body, #root, .App {
+  height: 100%;
+  width: 100%;
+}
+
+main {
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../../public/website-front-banner.png);
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+}
+
+.col {
+  margin-top: 200px;
+}
