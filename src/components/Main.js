@@ -1,21 +1,19 @@
-import { Col, Container, Row, Button } from "react-bootstrap"
-// import Header from './Header.js';
+import React from 'react'
+import { Routes, Route } from 'react-router-dom';
+import Home from './pages/Home.js';
+import About from './pages/About.js';
+import History from './pages/History.js';
 
-const Main = () => 
-    <main>
-        <Container fluid='xxl'>
-            <Row fluid>
-                <Col>
-                    <div class="text-center text-white">
-                        <h1 class="display-1"><strong>Lambda Psi Rho</strong></h1>
-                        <p><strong>Founding Chapter at The University of Nevada</strong></p>
-                        <div className="button-wrapper">
-                            <Button>About Us</Button>
-                        </div>
-                    </div>
-                </Col>
-            </Row>
-        </Container>
-    </main>
+const Main = () => {
+    return (
+        <Routes >
+            <Route exact path='/' element={<Home />}></Route>
+            <Route exact path='/about' element={<About />}></Route>
+            {/* <Route path='/about' component={About}></Route>
+            <Route path='/contact' component={Contact}></Route> */}
+        </Routes >
+    )
+}
+
 
 export default Main
