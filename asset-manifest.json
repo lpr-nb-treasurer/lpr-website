@@ -1,15 +1,15 @@
 {
-  "main.css": "/static/css/main.9f891846.chunk.css",
-  "main.js": "/static/js/main.9e7e2b3e.chunk.js",
-  "main.js.map": "/static/js/main.9e7e2b3e.chunk.js.map",
-  "runtime~main.js": "/static/js/runtime~main.a5dcd33a.js",
-  "runtime~main.js.map": "/static/js/runtime~main.a5dcd33a.js.map",
-  "static/js/2.5a9919cf.chunk.js": "/static/js/2.5a9919cf.chunk.js",
-  "static/js/2.5a9919cf.chunk.js.map": "/static/js/2.5a9919cf.chunk.js.map",
-  "static/js/3.5aaf3fca.chunk.js": "/static/js/3.5aaf3fca.chunk.js",
-  "static/js/3.5aaf3fca.chunk.js.map": "/static/js/3.5aaf3fca.chunk.js.map",
-  "index.html": "/index.html",
-  "precache-manifest.254193202e25ec48237ef817d497f295.js": "/precache-manifest.254193202e25ec48237ef817d497f295.js",
-  "service-worker.js": "/service-worker.js",
-  "static/css/main.9f891846.chunk.css.map": "/static/css/main.9f891846.chunk.css.map"
+  "main.css": "/lpr-website/static/css/main.9f891846.chunk.css",
+  "main.js": "/lpr-website/static/js/main.9e7e2b3e.chunk.js",
+  "main.js.map": "/lpr-website/static/js/main.9e7e2b3e.chunk.js.map",
+  "runtime~main.js": "/lpr-website/static/js/runtime~main.8d10752b.js",
+  "runtime~main.js.map": "/lpr-website/static/js/runtime~main.8d10752b.js.map",
+  "static/js/2.5a9919cf.chunk.js": "/lpr-website/static/js/2.5a9919cf.chunk.js",
+  "static/js/2.5a9919cf.chunk.js.map": "/lpr-website/static/js/2.5a9919cf.chunk.js.map",
+  "static/js/3.5aaf3fca.chunk.js": "/lpr-website/static/js/3.5aaf3fca.chunk.js",
+  "static/js/3.5aaf3fca.chunk.js.map": "/lpr-website/static/js/3.5aaf3fca.chunk.js.map",
+  "index.html": "/lpr-website/index.html",
+  "precache-manifest.abf2eb1ce7ede6bee162b11eacfa71a0.js": "/lpr-website/precache-manifest.abf2eb1ce7ede6bee162b11eacfa71a0.js",
+  "service-worker.js": "/lpr-website/service-worker.js",
+  "static/css/main.9f891846.chunk.css.map": "/lpr-website/static/css/main.9f891846.chunk.css.map"
 }
