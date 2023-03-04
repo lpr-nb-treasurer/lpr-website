@@ -11,7 +11,7 @@ const Header = () => {
         <Navbar bg="light" expand="sm">
             <Container>
                 <Navbar.Brand href={baseURL+"/"}><img
-                    src={baseURL+"/cropped-LPR-maroon-2.png"}
+                    src={"/lpr-website/cropped-LPR-maroon-2.png"}
                     width="80"
                     height="60"
                     alt=""
