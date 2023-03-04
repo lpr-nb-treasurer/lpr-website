@@ -6,7 +6,7 @@ import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 
 const Header = () => {
-    const baseURL = '/lpr-website'
+    const baseURL = '/lpr-website';
     return (
         <Navbar bg="light" expand="sm">
             <Container>
