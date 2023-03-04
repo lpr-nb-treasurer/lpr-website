@@ -1,21 +1,28 @@
-import { Col, Container, Row, Button } from "react-bootstrap"
-// import Header from './Header.js';
+import React from 'react'
+import { Routes, Route } from 'react-router-dom';
+import { Home, About, Membership, Academics, SteppingStrolling, UpcomingEvents, Expansion, IncorporationCharteringProcess } from './pages/index';
 
-const Main = () => 
-    <main>
-        <Container fluid='xxl'>
-            <Row fluid>
-                <Col>
-                    <div class="text-center text-white">
-                        <h1 class="display-1"><strong>Lambda Psi Rho</strong></h1>
-                        <p><strong>Founding Chapter at The University of Nevada</strong></p>
-                        <div className="button-wrapper">
-                            <Button>About Us</Button>
-                        </div>
-                    </div>
-                </Col>
-            </Row>
-        </Container>
-    </main>
+const baseURL = '/lpr-website'
+const Main = () => {
+    return (
+        <Routes >
+            <Route exact path="/" element={<Home />} />
+            <Route path={baseURL+'/'} element={<Home />}></Route>
+            <Route path={baseURL+'/about'} element={<About />}></Route>
+            <Route path={baseURL+'/membership'} element={<Membership />}></Route>
+            <Route path={baseURL+'/academics'} element={<Academics />}></Route>
+            <Route path={baseURL+'/stepping-strolling'} element={<SteppingStrolling />}></Route>
+            <Route path={baseURL+'/upcoming-events'} element={<UpcomingEvents />}></Route>
+            <Route path={baseURL+'/incorporation-chartering-process-and-non-profit'} element={<IncorporationCharteringProcess />}></Route>
+            <Route path={baseURL+'/expansion'} element={<Expansion />}></Route>
+            {/*<Route path={baseURL+'/expansion'} element={<Expansion />}></Route>
+            <Route path={baseURL+'/expansion'} element={<Expansion />}></Route>
+            <Route path={baseURL+'/expansion'} element={<Expansion />}></Route>
+            <Route path={baseURL+'/expansion'} element={<Expansion />}></Route>
+            <Route path={baseURL+'/expansion'} element={<Expansion />}></Route> */}
+        </Routes >
+    )
+}
+
 
 export default Main

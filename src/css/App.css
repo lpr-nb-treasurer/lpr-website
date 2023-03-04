@@ -1,15 +1,60 @@
 html, body, #root, .App {
   height: 100%;
   width: 100%;
+  background-color: maroon;
+}
+
+.App > nav {
+  padding-bottom: 0;
+  padding-top: 0;
+}
+
+.navbar-brand {
+  float: left;
+  justify-content: left;
 }
 
 main {
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../../public/website-front-banner.png);
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(/website-front-banner.png);
+  background-repeat: repeat-y;
   background-size: cover;
-  background-position: center;
   height: 100%;
 }
 
 .col {
   margin-top: 200px;
+}
+
+.main-content-wrapper {
+  background-color: rgb(87,19,43);
+  border-radius: 20px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin: auto;
+  max-width: 70%;
+  position: relative;
+}
+
+.main-content-paragraph-wrapper {
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  max-width: 70%;
+  max-height: 70%;
+  position: relative;
+  color:rgba(0, 0, 0)
+}
+
+img.resize {
+  height: auto;
+}
+
+iframe {
+  width: 100%;
 }
