@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "e1971cfa660b43035a14",
-    "url": "/lpr-website/static/css/main.d301d934.chunk.css"
+    "revision": "0d18e614cd12fe57dfca",
+    "url": "/lpr-website/static/css/main.172374d1.chunk.css"
   },
   {
-    "revision": "e1971cfa660b43035a14",
-    "url": "/lpr-website/static/js/main.f7d1b5fe.chunk.js"
+    "revision": "0d18e614cd12fe57dfca",
+    "url": "/lpr-website/static/js/main.41dbf9bf.chunk.js"
   },
   {
     "revision": "837a6c69178c7f29eb73",
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/lpr-website/static/js/3.5aaf3fca.chunk.js"
   },
   {
-    "revision": "7c8d87f75be0a8b16edaf75cfbb72411",
+    "revision": "a5ad7b7a532e81ab90d265dd91f3ab75",
     "url": "/lpr-website/index.html"
   }
 ];
