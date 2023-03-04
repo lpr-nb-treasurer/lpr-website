@@ -1,8 +1,8 @@
 import React from "react";
 
 export default () => {
-    const title = 'Title';
-    const content = 'paragraph';
+    const title = 'Upcoming Events';
+    const content = 'None, yet!';
     return (
         <main>
             <div className="main-content-wrapper">
