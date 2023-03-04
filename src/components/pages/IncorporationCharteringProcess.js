@@ -1,7 +1,7 @@
 import React from "react";
 
 export default () => {
-    const title = 'Title';
+    const title = 'Incorporation, Chartering, and Non-profit';
     return (
         <main>
             <div className="main-content-wrapper">

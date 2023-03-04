@@ -15,7 +15,7 @@ const Header = () => {
                     width="80"
                     height="60"
                     alt=""
-                />prebuild 1
+                />Lambda Psi Rho
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
@@ -31,10 +31,10 @@ const Header = () => {
                         </NavDropdown>
                         <NavDropdown title="Brothers" id="basic-nav-dropdown" align={{ sm: 'end' }}>
                             <NavDropdown.Item href={baseURL+"/brothers/founding-chapter/"}>Founding Chapter</NavDropdown.Item>
-                            <NavDropdown.Item href={baseURL+"/active-house/"}>Active House</NavDropdown.Item>
-                            <NavDropdown.Item href={baseURL+"/brothers-alumni-chapter/"}>Alumni Chapter</NavDropdown.Item>
+                            <NavDropdown.Item href={baseURL+"/brothers/active-house/"}>Active House</NavDropdown.Item>
+                            <NavDropdown.Item href={baseURL+"/brothers/alumni-chapter/"}>Alumni Chapter</NavDropdown.Item>
                             <NavDropdown.Item href={baseURL+"/brothers/executive-board/"}>Executive Board</NavDropdown.Item>
-                            <NavDropdown.Item href={baseURL+"/history/national-board/"}>National Board</NavDropdown.Item>
+                            <NavDropdown.Item href={baseURL+"/brothers/national-board/"}>National Board</NavDropdown.Item>
                         </NavDropdown>
                         <NavDropdown title="Philanthropy" id="basic-nav-dropdown" align={{ sm: 'end' }}>
                             <NavDropdown.Item href={baseURL+"/philanthropy/local/"}>Local Philanthropies</NavDropdown.Item>
