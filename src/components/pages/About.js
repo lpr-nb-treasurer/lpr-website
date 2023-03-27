@@ -13,7 +13,7 @@ export default () => {
                     <div className="main-content-paragraph-wrapper">
                         {content}
                     </div>
-                    <iframe src="https://www.youtube.com/embed/Ox1xyZEDMPc" title="Lambda Psi Rho Yardshow 2018" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+                    <div id="about-page-video"><iframe src="https://www.youtube.com/embed/Ox1xyZEDMPc" height="422" title="Lambda Psi Rho Yardshow 2018" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe></div>
                 </div>
             </div>
         </main>

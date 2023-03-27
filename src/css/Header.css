@@ -1,0 +1,23 @@
+.App > nav {
+    padding-bottom: 0;
+    padding-top: 0;
+    background-color: rgb(84,20,44) !important;
+    font-size:large;
+    position: sticky;
+    top: 0;
+    z-index:99;
+}
+
+.navbar {
+    color: lightgray !important;
+}
+
+.App > nav > div.container {
+    margin: 0;
+    max-width: 100%;
+}
+
+
+.App > nav > div > a {
+    font-size: 30px;
+}

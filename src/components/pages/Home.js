@@ -15,7 +15,7 @@ export default () => {
                 <strong>Founding Chapter at The University of Nevada</strong>
               </p>
               <div className="button-wrapper">
-                <Button>About Us</Button>
+                <Button href={'about'}>About Us</Button>
               </div>
             </div>
           </Col>

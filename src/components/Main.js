@@ -28,6 +28,7 @@ const Main = () => {
             <Route path={'/stepping-strolling'} element={<SteppingStrolling />}></Route>
             <Route path={'/upcoming-events'} element={<UpcomingEvents />}></Route>
             <Route path={'/incorporation-chartering-process-and-non-profit'} element={<IncorporationCharteringProcess />}></Route>
+            <Route path={'/expansion'} element={<Expansion />}></Route>
             <Route path={'/brothers/founding-chapter'} element={<FoundingChapter />}></Route>
             <Route path={'/brothers/active-house'} element={<ActiveChapter />}></Route>
             <Route path={'/brothers/alumni-chapter'} element={<AlumniChapter />}></Route>

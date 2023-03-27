@@ -9,7 +9,7 @@ export default () => {
                     <h1 className="display-3">
                         <strong>{title}</strong>
                     </h1>
-                    <div className="main-content-paragraph-wrapper">
+                    <div className="main-content-paragraph-wrapper centered-text-paragraph">
                             <h1>2018 MGC Yardshow (Fall)</h1>
                             <p><iframe title="2018 MGC Yardshow (Fall)" height="422" src="https://www.youtube.com/embed/Ox1xyZEDMPc?feature=oembed" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen=""></iframe></p>
                             <h1>2018 MGC Yardshow (Spring)</h1>
