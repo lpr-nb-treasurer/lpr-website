@@ -8,7 +8,7 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 const Header = () => {
     const baseURL = '/lpr-website';
     return (
-        <Navbar expand="sm">
+        <Navbar expand="sm" >
             <Container>
                 <Navbar.Brand href={baseURL+"/"}><img
                     src={"/lpr-website/cropped-LPR-maroon-2.png"}
