@@ -6,12 +6,12 @@ import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 
 const Header = () => {
-    const baseURL = '/lpr-website';
+    const baseURL = '';
     return (
         <Navbar expand="sm" >
             <Container>
                 <Navbar.Brand href={baseURL+"/"}><img
-                    src={"/lpr-website/cropped-LPR-maroon-2.png"}
+                    src={baseURL+"/cropped-LPR-maroon-2.png"}
                     width="60"
                     height="45"
                     alt=""
