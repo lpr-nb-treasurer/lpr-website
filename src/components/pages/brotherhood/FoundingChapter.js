@@ -25,77 +25,77 @@ export default () => {
                             <li>Anthony Yi</li>
                         </ul>
                         <ul>Alpha Class
-                        <li>Jefferson Bustarde</li>
-                        <li>Markus Caligdong</li>
-                        <li>Jeff Creedon</li>
-                        <li>Steven Flores</li>
-                        <li>TJ Garcia</li>
-                        <li>Andrew Lau</li>
-                        <li>Sang Lee</li>
-                        <li>Travis Nguyen</li>
-                        <li>Daniel Taing</li>
-                        <li>Gabriel Uy</li>
-                        <li>Anthony Villalba</li>
+                            <li>Jefferson Bustarde</li>
+                            <li>Markus Caligdong</li>
+                            <li>Jeff Creedon</li>
+                            <li>Steven Flores</li>
+                            <li>TJ Garcia</li>
+                            <li>Andrew Lau</li>
+                            <li>Sang Lee</li>
+                            <li>Travis Nguyen</li>
+                            <li>Daniel Taing</li>
+                            <li>Gabriel Uy</li>
+                            <li>Anthony Villalba</li>
                         </ul>
                         <ul>Beta Class
-                        <li>Mark Dave Almachar</li>
-                        <li>Abraham Cheng</li>
-                        <li>Michael Chewjalearn</li>
-                        <li>Justin Choi</li>
-                        <li>Christopher Frias</li>
-                        <li>Scotty Huynh</li>
-                        <li>Kalena Pelekai-Wai</li>
-                        <li>Daniel Vu</li>
+                            <li>Mark Dave Almachar</li>
+                            <li>Abraham Cheng</li>
+                            <li>Michael Chewjalearn</li>
+                            <li>Justin Choi</li>
+                            <li>Christopher Frias</li>
+                            <li>Scotty Huynh</li>
+                            <li>Kalena Pelekai-Wai</li>
+                            <li>Daniel Vu</li>
                         </ul>
                         <ul>Gamma Class
-                        <li>Tony Boffelli</li>
-                        <li>Ronnie Corcuera</li>
-                        <li>Aren Hirano</li>
-                        <li>Erik Ibarra</li>
-                        <li>Marcus Krueger</li>
-                        <li>James Kuzhipalla</li>
-                        <li>Kawena Lee</li>
-                        <li>Kevin Rodriguez</li>
+                            <li>Tony Boffelli</li>
+                            <li>Ronnie Corcuera</li>
+                            <li>Aren Hirano</li>
+                            <li>Erik Ibarra</li>
+                            <li>Marcus Krueger</li>
+                            <li>James Kuzhipalla</li>
+                            <li>Kawena Lee</li>
+                            <li>Kevin Rodriguez</li>
                         </ul>
                         <ul>Delta Class
-                        <li>Robert Aker</li>
-                        <li>Emil Almachar</li>
-                        <li>Kamran Baig</li>
-                        <li>Steven Eng</li>
-                        <li>David Perez</li>
-                        <li>Stevanus Pradipa</li>
-                        <li>David Silva</li>
-                        <li>David Waihenya</li>
+                            <li>Robert Aker</li>
+                            <li>Emil Almachar</li>
+                            <li>Kamran Baig</li>
+                            <li>Steven Eng</li>
+                            <li>David Perez</li>
+                            <li>Stevanus Pradipa</li>
+                            <li>David Silva</li>
+                            <li>David Waihenya</li>
                         </ul>
 
                         <ul>Epsilon Class
-                        <li>Robert Alvarez</li>
-                        <li>Deo Bustarde</li>
-                        <li>Ryan Fong</li>
-                        <li>Warren Kao</li>
-                        <li>Danny Lee</li>
-                        <li>Steven Leung</li>
-                        <li>Ian Nato</li>
-                        <li>Dennis Park</li>
-                        <li>Jason Phan</li>
-                        <li>David Ramirez</li>
-                        <li>Jiruth Samerthai</li>
-                        <li>Sonny Tao</li>
+                            <li>Robert Alvarez</li>
+                            <li>Deo Bustarde</li>
+                            <li>Ryan Fong</li>
+                            <li>Warren Kao</li>
+                            <li>Danny Lee</li>
+                            <li>Steven Leung</li>
+                            <li>Ian Nato</li>
+                            <li>Dennis Park</li>
+                            <li>Jason Phan</li>
+                            <li>David Ramirez</li>
+                            <li>Jiruth Samerthai</li>
+                            <li>Sonny Tao</li>
                         </ul>
                         <ul>Zeta Class
-                        <li>Ian Cabanilla</li>
-                        <li>Austin Eskola</li>
-                        <li>Steven Lam</li>
-                        <li>Tyler McWilliams</li>
-                        <li>Kevin Rosario</li>
-                        <li>David Thantacheva</li>
-                        <li>Kevin Wang</li>
+                            <li>Ian Cabanilla</li>
+                            <li>Austin Eskola</li>
+                            <li>Steven Lam</li>
+                            <li>Tyler McWilliams</li>
+                            <li>Kevin Rosario</li>
+                            <li>David Thantacheva</li>
+                            <li>Kevin Wang</li>
                         </ul>
-                        <ul>Eta Class</ul>
+                        <ul>Eta Class
                         <li>AJ Cabuang</li>
                         <li>Andrew Helige</li>
                         <li>Tyler Kinney</li>
-
+                        </ul>
                         <ul>Theta Class
                         <li>Kavindu Amarasinghe</li>
                         <li>RB Rom</li>
