@@ -19,7 +19,14 @@ body,
   justify-content: left;
 }
 
-main {
+.home-page-content {
+  background-color: rgb(255, 255, 255, 0.8);
+  border-radius: 5px;
+  padding: 10px;
+  margin: 20px auto;
+  max-width: 95%;
+  max-height: 95%;
+  text-align: center;
 }
 
 .col {
@@ -45,6 +52,7 @@ main {
   position: relative;
   color: rgba(0, 0, 0);
   text-align: left;
+  font-size: calc(12px + 0.5vw);
 }
 
 .centered-text-paragraph {
@@ -68,4 +76,10 @@ ul {
   padding: auto;
   max-width: 50%;
   max-height: 80%;
+}
+
+#about-us-button {
+  background-color: grey;
+  color: white;
+  border-color: grey;
 }

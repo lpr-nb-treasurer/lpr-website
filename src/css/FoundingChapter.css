@@ -6,7 +6,6 @@
 
 .founding-chapter-list {
   width: 30%;
-  font-size: calc(12px + 0.5vw);
 }
 
 @media (max-width: 1200px) {
