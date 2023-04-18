@@ -1,7 +1,7 @@
 .App > nav {
     padding-bottom: 0;
     padding-top: 0;
-    background-color: rgb(84,20,44) !important;
+    background-color: rgb(255, 255, 255) !important;
     font-size:large;
     position: sticky;
     top: 0;

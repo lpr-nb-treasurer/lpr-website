@@ -1,0 +1,20 @@
+#brothers-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.founding-chapter-list {
+  width: 30%;
+}
+
+@media (max-width: 1200px) {
+  .founding-chapter-list {
+    width: 50%;
+  }
+}
+@media (max-width: 700px) {
+  .founding-chapter-list {
+    width: 100%;
+  }
+}

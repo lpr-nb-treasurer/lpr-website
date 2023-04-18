@@ -1,9 +1,17 @@
-html, body, #root, .App {
-  height: 100%;
+html,
+body,
+#root,
+.App {
+  /* height: 100%; */
   width: 100%;
-  background-color: rgb(84,20,44);
+  background-color: rgb(84, 20, 44);
   font-family: 'Lora', serif;
-  height: fit-content
+  height: fit-content;
+  background: url(/lpr-website/website-front-banner.png);
+  background-attachment: fixed;
+  background-repeat: repeat-y;
+  background-size: cover;
+  height: max(fit-content, 100%);
 }
 
 .navbar-brand {
@@ -11,12 +19,14 @@ html, body, #root, .App {
   justify-content: left;
 }
 
-main {
-  background: url(/lpr-website/website-front-banner.png);
-  background-attachment: fixed;
-  background-repeat: repeat-y;
-  background-size: cover;
-  height: max(max-content, 100%);
+.home-page-content {
+  background-color: rgb(255, 255, 255, 0.8);
+  border-radius: 5px;
+  padding: 10px;
+  margin: 20px auto;
+  max-width: 95%;
+  max-height: 95%;
+  text-align: center;
 }
 
 .col {
@@ -33,15 +43,16 @@ main {
 }
 
 .main-content-paragraph-wrapper {
-  background-color: rgb(255, 255, 255, .8);
+  background-color: rgb(255, 255, 255, 0.8);
   border-radius: 5px;
   padding: 10px;
   margin: 20px auto;
-  max-width: 80%;
-  max-height: 80%;
+  max-width: 95%;
+  max-height: 95%;
   position: relative;
-  color:rgba(0, 0, 0);
+  color: rgba(0, 0, 0);
   text-align: left;
+  font-size: calc(12px + 0.5vw);
 }
 
 .centered-text-paragraph {
@@ -65,4 +76,10 @@ ul {
   padding: auto;
   max-width: 50%;
   max-height: 80%;
+}
+
+#about-us-button {
+  background-color: rgba(128, 0, 0, 0.8);
+  color: white;
+  border-color: white;
 }
