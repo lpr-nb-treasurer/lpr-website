@@ -79,7 +79,7 @@ ul {
 }
 
 #about-us-button {
-  background-color: grey;
+  background-color: rgba(128, 0, 0, 0.8);
   color: white;
-  border-color: grey;
+  border-color: white;
 }
