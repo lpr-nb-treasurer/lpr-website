@@ -1,5 +1,5 @@
-import React from 'react'
-import { Col, Container, Row, Button } from "react-bootstrap"
+import React from 'react';
+import { Col, Container, Row, Button } from 'react-bootstrap';
 
 export default () => {
   return (
@@ -7,7 +7,7 @@ export default () => {
       <Container fluid="xxl">
         <Row>
           <Col>
-            <div className="text-center text-white">
+            <div className="home-page-content">
               <h1 className="display-1">
                 <strong>Lambda Psi Rho</strong>
               </h1>
@@ -15,7 +15,9 @@ export default () => {
                 <strong>Founding Chapter at The University of Nevada</strong>
               </p>
               <div className="button-wrapper">
-                <Button href={'about'}>About Us</Button>
+                <Button id="about-us-button" href={'about'}>
+                  About Us
+                </Button>
               </div>
             </div>
           </Col>
