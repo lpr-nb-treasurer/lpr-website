@@ -12,7 +12,7 @@ export default () => {
             <strong>{title}</strong>
           </h1>
           <div className="main-content-paragraph-wrapper" id="brothers-list">
-            <ul>
+            <ul className="founding-chapter-list">
               Founding Fathers
               <li>Sean Aguon</li>
               <li>Jeffrey Chao</li>
@@ -26,7 +26,7 @@ export default () => {
               <li>Michael Wang</li>
               <li>Anthony Yi</li>
             </ul>
-            <ul>
+            <ul className="founding-chapter-list">
               Alpha Class
               <li>Jefferson Bustarde</li>
               <li>Markus Caligdong</li>
@@ -40,7 +40,7 @@ export default () => {
               <li>Gabriel Uy</li>
               <li>Anthony Villalba</li>
             </ul>
-            <ul>
+            <ul className="founding-chapter-list">
               Beta Class
               <li>Mark Dave Almachar</li>
               <li>Abraham Cheng</li>
@@ -51,7 +51,7 @@ export default () => {
               <li>Kalena Pelekai-Wai</li>
               <li>Daniel Vu</li>
             </ul>
-            <ul>
+            <ul className="founding-chapter-list">
               Gamma Class
               <li>Tony Boffelli</li>
               <li>Ronnie Corcuera</li>
@@ -62,7 +62,7 @@ export default () => {
               <li>Kawena Lee</li>
               <li>Kevin Rodriguez</li>
             </ul>
-            <ul>
+            <ul className="founding-chapter-list">
               Delta Class
               <li>Robert Aker</li>
               <li>Emil Almachar</li>
@@ -73,7 +73,7 @@ export default () => {
               <li>David Silva</li>
               <li>David Waihenya</li>
             </ul>
-            <ul>
+            <ul className="founding-chapter-list">
               Epsilon Class
               <li>Robert Alvarez</li>
               <li>Deo Bustarde</li>
@@ -88,7 +88,7 @@ export default () => {
               <li>Jiruth Samerthai</li>
               <li>Sonny Tao</li>
             </ul>
-            <ul>
+            <ul className="founding-chapter-list">
               Zeta Class
               <li>Ian Cabanilla</li>
               <li>Austin Eskola</li>
@@ -98,19 +98,19 @@ export default () => {
               <li>David Thantacheva</li>
               <li>Kevin Wang</li>
             </ul>
-            <ul>
+            <ul className="founding-chapter-list">
               Eta Class
               <li>AJ Cabuang</li>
               <li>Andrew Helige</li>
               <li>Tyler Kinney</li>
             </ul>
-            <ul>
+            <ul className="founding-chapter-list">
               Theta Class
               <li>Kavindu Amarasinghe</li>
               <li>RB Rom</li>
               <li>Joshoua Staana</li>
             </ul>
-            <ul>
+            <ul className="founding-chapter-list">
               Iota Class
               <li>Ricardo Aker</li>
               <li>Geoffrey Kirk Alcaraz</li>
@@ -123,7 +123,7 @@ export default () => {
               <li>Danny Phung</li>
               <li>Jordan Serrano</li>
             </ul>
-            <ul>
+            <ul className="founding-chapter-list">
               Kappa Class
               <li>Josh Cano</li>
               <li>Jacob Davis</li>
@@ -134,7 +134,7 @@ export default () => {
               <li>Mickey Rosal</li>
               <li>Mauricio Solorio</li>
             </ul>
-            <ul>
+            <ul className="founding-chapter-list">
               Lambda Class
               <li>Raul Esteves</li>
               <li>Hung Le</li>
@@ -143,7 +143,7 @@ export default () => {
               <li>Will Peruel</li>
               <li>Damian Van</li>
             </ul>
-            <ul>
+            <ul className="founding-chapter-list">
               Mu Class
               <li>Christian Corabo</li>
               <li>Jeff Kwong</li>

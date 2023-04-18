@@ -2,24 +2,20 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  border: 5px;
-  border-color: black;
 }
 
-ul {
+.founding-chapter-list {
   width: 30%;
-  border-color: black;
-  border: 5px;
   font-size: calc(12px + 0.5vw);
 }
 
 @media (max-width: 1200px) {
-  ul {
+  .founding-chapter-list {
     width: 50%;
   }
 }
 @media (max-width: 700px) {
-  ul {
+  .founding-chapter-list {
     width: 100%;
   }
 }
