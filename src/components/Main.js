@@ -20,6 +20,7 @@ import {
 const Main = () => {
     return (
         <Routes >
+            <Route exact path="/" element={<Home />} />
             <Route path={'/'} element={<Home />}></Route>
             <Route path={'/about'} element={<About />}></Route>
             <Route path={'/membership'} element={<Membership />}></Route>
