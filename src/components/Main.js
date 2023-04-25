@@ -21,20 +21,19 @@ const Main = () => {
     return (
         <Routes >
             <Route exact path="/" element={<Home />} />
-            <Route path={'/'} element={<Home />}></Route>
-            <Route path={'/about'} element={<About />}></Route>
-            <Route path={'/membership'} element={<Membership />}></Route>
-            <Route path={'/academics'} element={<Academics />}></Route>
-            <Route path={'/stepping-strolling'} element={<SteppingStrolling />}></Route>
-            <Route path={'/upcoming-events'} element={<UpcomingEvents />}></Route>
-            <Route path={'/incorporation-chartering-process-and-non-profit'} element={<IncorporationCharteringProcess />}></Route>
-            <Route path={'/expansion'} element={<Expansion />}></Route>
-            <Route path={'/brothers/founding-chapter'} element={<FoundingChapter />}></Route>
-            <Route path={'/brothers/active-house'} element={<ActiveChapter />}></Route>
-            <Route path={'/brothers/alumni-chapter'} element={<AlumniChapter />}></Route>
-            <Route path={'/brothers/executive-board'} element={<ExecutiveBoard />}></Route>
-            <Route path={'/brothers/national-board'} element={<NationalBoard />}></Route>
-            <Route path={'/philanthropy/local'} element={<PhilanthropyLocal />}></Route>
+            <Route exact path={'/about'} element={<About />}></Route>
+            <Route exact path={'/membership'} element={<Membership />}></Route>
+            <Route exact path={'/academics'} element={<Academics />}></Route>
+            <Route exact path={'/stepping-strolling'} element={<SteppingStrolling />}></Route>
+            <Route exact path={'/upcoming-events'} element={<UpcomingEvents />}></Route>
+            <Route exact path={'/incorporation-chartering-process-and-non-profit'} element={<IncorporationCharteringProcess />}></Route>
+            <Route exact path={'/expansion'} element={<Expansion />}></Route>
+            <Route exact path={'/brothers/founding-chapter'} element={<FoundingChapter />}></Route>
+            <Route exact path={'/brothers/active-house'} element={<ActiveChapter />}></Route>
+            <Route exact path={'/brothers/alumni-chapter'} element={<AlumniChapter />}></Route>
+            <Route exact path={'/brothers/executive-board'} element={<ExecutiveBoard />}></Route>
+            <Route exact path={'/brothers/national-board'} element={<NationalBoard />}></Route>
+            <Route exact path={'/philanthropy/local'} element={<PhilanthropyLocal />}></Route>
         </Routes >
     )
 }
