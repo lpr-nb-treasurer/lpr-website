@@ -24,9 +24,10 @@ body,
   border-radius: 5px;
   padding: 10px;
   margin: 20px auto;
-  max-width: 95%;
+  max-width: 55%;
   max-height: 95%;
   text-align: center;
+  box-shadow: 1px 1px 25px black;
 }
 
 .col {
@@ -53,7 +54,7 @@ body,
   color: rgba(0, 0, 0);
   text-align: left;
   font-size: calc(12px + 0.5vw);
-  box-shadow: 1px 1px 2px black;
+  box-shadow: 1px 1px 25px black;
 }
 
 .centered-text-paragraph {
@@ -85,6 +86,6 @@ ul {
   border-color: white;
 }
 
-h1 > strong {
-  text-shadow: 1px 1px 5px black;
+.main-content-wrapper h1 > strong {
+  text-shadow: 1px 1px 20px black;
 }
