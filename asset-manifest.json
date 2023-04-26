@@ -1,15 +1,15 @@
 {
-  "main.css": "/lpr-website/static/css/main.93d6b53e.chunk.css",
-  "main.js": "/lpr-website/static/js/main.0fef219b.chunk.js",
-  "main.js.map": "/lpr-website/static/js/main.0fef219b.chunk.js.map",
-  "runtime~main.js": "/lpr-website/static/js/runtime~main.86b7db62.js",
-  "runtime~main.js.map": "/lpr-website/static/js/runtime~main.86b7db62.js.map",
-  "static/js/2.a94b981e.chunk.js": "/lpr-website/static/js/2.a94b981e.chunk.js",
-  "static/js/2.a94b981e.chunk.js.map": "/lpr-website/static/js/2.a94b981e.chunk.js.map",
-  "static/js/3.26d8ba2d.chunk.js": "/lpr-website/static/js/3.26d8ba2d.chunk.js",
-  "static/js/3.26d8ba2d.chunk.js.map": "/lpr-website/static/js/3.26d8ba2d.chunk.js.map",
-  "index.html": "/lpr-website/index.html",
-  "precache-manifest.264f4aa6c890e92fb5fad1fcf5439790.js": "/lpr-website/precache-manifest.264f4aa6c890e92fb5fad1fcf5439790.js",
-  "service-worker.js": "/lpr-website/service-worker.js",
-  "static/css/main.93d6b53e.chunk.css.map": "/lpr-website/static/css/main.93d6b53e.chunk.css.map"
+  "main.css": "/static/css/main.93d6b53e.chunk.css",
+  "main.js": "/static/js/main.0fef219b.chunk.js",
+  "main.js.map": "/static/js/main.0fef219b.chunk.js.map",
+  "runtime~main.js": "/static/js/runtime~main.727c92dd.js",
+  "runtime~main.js.map": "/static/js/runtime~main.727c92dd.js.map",
+  "static/js/2.a94b981e.chunk.js": "/static/js/2.a94b981e.chunk.js",
+  "static/js/2.a94b981e.chunk.js.map": "/static/js/2.a94b981e.chunk.js.map",
+  "static/js/3.26d8ba2d.chunk.js": "/static/js/3.26d8ba2d.chunk.js",
+  "static/js/3.26d8ba2d.chunk.js.map": "/static/js/3.26d8ba2d.chunk.js.map",
+  "index.html": "/index.html",
+  "precache-manifest.309f208e50ab11e0201866c5ef89cdb0.js": "/precache-manifest.309f208e50ab11e0201866c5ef89cdb0.js",
+  "service-worker.js": "/service-worker.js",
+  "static/css/main.93d6b53e.chunk.css.map": "/static/css/main.93d6b53e.chunk.css.map"
 }
