@@ -4,6 +4,50 @@ import '../../../css/FoundingChapter.css';
 export default () => {
   const title = 'Founding Chapter';
   // const content = 'paragraph';
+  const foundingFathers = [
+    'Founding Fathers',
+    'Sean Aguon',
+    'Jeffrey Chao',
+    'Charleston Chua',
+    'Christopher Doan',
+    'Andy Ha',
+    'Steven Ly',
+    'Hector Miguel',
+    'Tommy On',
+    'Zephyrene Villaluz',
+    'Michael Wang',
+    'Anthony Yi',
+  ];
+  const alphaClass = [
+    'Alpha Class',
+    'Jefferson Bustarde',
+    'Markus Caligdong',
+    'Jeff Creedon',
+    'Steven Flores',
+    'TJ Garcia',
+    'Andrew Lau',
+    'Sang Lee',
+    'Travis Nguyen',
+    'Daniel Taing',
+    'Gabriel Uy',
+    'Anthony Villalba',
+  ];
+  const betaClass = [
+    'Beta Class',
+    'Mark Dave Almachar',
+    'Abraham Cheng',
+    'Michael Chewjalearn',
+    'Justin Choi',
+    'Christopher Frias',
+    'Scotty Huynh',
+    'Kalena Pelekai-Wai',
+    'Daniel Vu',
+  ];
+  const classes = [foundingFathers, alphaClass, betaClass];
+  const displayArr = [];
+  for (let i = 0; i < classes.length; i++) {
+    displayArr.push(<Classes class={classes[i]} key={i}></Classes>);
+  }
   return (
     <main>
       <div className="main-content-wrapper">
@@ -12,45 +56,7 @@ export default () => {
             <strong>{title}</strong>
           </h1>
           <div className="main-content-paragraph-wrapper" id="brothers-list">
-            <ul className="founding-chapter-list">
-              <div className="founding-chapter-titles">Founding Fathers</div>
-              <li>Sean Aguon</li>
-              <li>Jeffrey Chao</li>
-              <li>Charleston Chua</li>
-              <li>Christopher Doan</li>
-              <li>Andy Ha</li>
-              <li>Steven Ly</li>
-              <li>Hector Miguel</li>
-              <li>Tommy On</li>
-              <li>Zephyrene Villaluz</li>
-              <li>Michael Wang</li>
-              <li>Anthony Yi</li>
-            </ul>
-            <ul className="founding-chapter-list">
-              <div className="founding-chapter-titles">Alpha Class</div>
-              <li>Jefferson Bustarde</li>
-              <li>Markus Caligdong</li>
-              <li>Jeff Creedon</li>
-              <li>Steven Flores</li>
-              <li>TJ Garcia</li>
-              <li>Andrew Lau</li>
-              <li>Sang Lee</li>
-              <li>Travis Nguyen</li>
-              <li>Daniel Taing</li>
-              <li>Gabriel Uy</li>
-              <li>Anthony Villalba</li>
-            </ul>
-            <ul className="founding-chapter-list">
-              <div className="founding-chapter-titles">Beta Class</div>
-              <li>Mark Dave Almachar</li>
-              <li>Abraham Cheng</li>
-              <li>Michael Chewjalearn</li>
-              <li>Justin Choi</li>
-              <li>Christopher Frias</li>
-              <li>Scotty Huynh</li>
-              <li>Kalena Pelekai-Wai</li>
-              <li>Daniel Vu</li>
-            </ul>
+            {displayArr}
             <ul className="founding-chapter-list">
               <div className="founding-chapter-titles">Gamma Class</div>
               <li>Tony Boffelli</li>
@@ -227,3 +233,17 @@ export default () => {
     </main>
   );
 };
+
+function Classes(props) {
+  console.log(props.class);
+  let classDisplay = [];
+  for (let i = 1; i < props.class.length; i++) {
+    classDisplay.push(<li>{props.class[i]}</li>);
+  }
+  return (
+    <ul className="founding-chapter-list">
+      <div className="founding-chapter-titles">{props.class[0]}</div>
+      {classDisplay}
+    </ul>
+  );
+}
