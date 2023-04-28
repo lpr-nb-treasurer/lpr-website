@@ -210,7 +210,7 @@ export default () => {
               <li>Carlos Vega-Reza</li>
             </ul>
             <ul className="founding-chapter-list">
-            <div className="founding-chapter-titles">Phi Class</div>
+              <div className="founding-chapter-titles">Phi Class</div>
               <li>Eadrian Carreon</li>
               <li>Jeremy Co</li>
               <li>Dylan Dang</li>
