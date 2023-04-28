@@ -13,7 +13,7 @@ export default () => {
           </h1>
           <div className="main-content-paragraph-wrapper" id="brothers-list">
             <ul className="founding-chapter-list">
-              Founding Fathers
+              <div className="founding-chapter-titles">Founding Fathers</div>
               <li>Sean Aguon</li>
               <li>Jeffrey Chao</li>
               <li>Charleston Chua</li>
@@ -27,7 +27,7 @@ export default () => {
               <li>Anthony Yi</li>
             </ul>
             <ul className="founding-chapter-list">
-              Alpha Class
+              <div className="founding-chapter-titles">Alpha Class</div>
               <li>Jefferson Bustarde</li>
               <li>Markus Caligdong</li>
               <li>Jeff Creedon</li>
@@ -41,7 +41,7 @@ export default () => {
               <li>Anthony Villalba</li>
             </ul>
             <ul className="founding-chapter-list">
-              Beta Class
+              <div className="founding-chapter-titles">Beta Class</div>
               <li>Mark Dave Almachar</li>
               <li>Abraham Cheng</li>
               <li>Michael Chewjalearn</li>
@@ -52,7 +52,7 @@ export default () => {
               <li>Daniel Vu</li>
             </ul>
             <ul className="founding-chapter-list">
-              Gamma Class
+              <div className="founding-chapter-titles">Gamma Class</div>
               <li>Tony Boffelli</li>
               <li>Ronnie Corcuera</li>
               <li>Aren Hirano</li>
@@ -63,7 +63,7 @@ export default () => {
               <li>Kevin Rodriguez</li>
             </ul>
             <ul className="founding-chapter-list">
-              Delta Class
+              <div className="founding-chapter-titles">Delta Class</div>
               <li>Robert Aker</li>
               <li>Emil Almachar</li>
               <li>Kamran Baig</li>
@@ -149,6 +149,77 @@ export default () => {
               <li>Jeff Kwong</li>
               <li>Jericho Sadorra</li>
               <li>Sirasit Punnanithi</li>
+            </ul>
+            <ul className="founding-chapter-list">
+              Nu Class
+              <li>Ryan Kim</li>
+              <li>Raphael Perry</li>
+              <li>Kevin Samuel</li>
+            </ul>
+            <ul className="founding-chapter-list">
+              Xi Class
+              <li>Juan Carlos Comahig</li>
+              <li>Allister Magalued</li>
+              <li>Ivan Samuel</li>
+            </ul>
+            <ul className="founding-chapter-list">
+              Omicron Class
+              <li>Alan Cruz</li>
+              <li>Brendan Hopson</li>
+              <li>Jaemin Lee</li>
+              <li>Benjamin Ly</li>
+              <li>Isaiah Marcello</li>
+              <li>Micah Soga</li>
+              <li>Ethan Tsuneta</li>
+              <li>Tim Wong</li>
+            </ul>
+            <ul className="founding-chapter-list">
+              Pi Class
+              <li>Derick Nguyen</li>
+              <li>Alex Pham</li>
+              <li>Joey Pontillas</li>
+            </ul>
+            <ul className="founding-chapter-list">
+              Rho Class
+              <li>Saebyuk Lee</li>
+              <li>Nathan Toralba</li>
+              <li>Albert Tran</li>
+            </ul>
+            <ul className="founding-chapter-list">
+              Sigma Class
+              <li>Keanu Aloua</li>
+              <li>Marlou DeCastro</li>
+              <li>Justin Fan</li>
+              <li>Josh Insorio</li>
+              <li>Brent Kuruma</li>
+              <li>Brian Nguyen</li>
+              <li>Kenneth Saronghilo</li>
+              <li>Marcus Son</li>
+            </ul>
+            <ul className="founding-chapter-list">
+              Tau Class
+              <li>Joseph Cano</li>
+              <li>Vincent Lee</li>
+              <li>Ian Sin</li>
+            </ul>
+            <ul className="founding-chapter-list">
+              Upsilon Class
+              <li>Nicholas Hong</li>
+              <li>Junior Macatlang</li>
+              <li>Henry Shi</li>
+              <li>Carlos Vega-Reza</li>
+            </ul>
+            <ul className="founding-chapter-list">
+              Phi Class
+              <li>Eadrian Carreon</li>
+              <li>Jeremy Co</li>
+              <li>Dylan Dang</li>
+              <li>Morgan Hunt</li>
+              <li>Gavin Ide</li>
+              <li>Sean Luna</li>
+              <li>Jhamin Mondragon</li>
+              <li>Larsen So</li>
+              <li>Shangqi Xue</li>
             </ul>
           </div>
         </div>
