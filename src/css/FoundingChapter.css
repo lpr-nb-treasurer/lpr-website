@@ -8,6 +8,11 @@
   width: 30%;
 }
 
+.founding-chapter-titles {
+  font-size: calc(20px + 0.5vw);
+  font-weight: bold;
+}
+
 @media (max-width: 1200px) {
   .founding-chapter-list {
     width: 50%;

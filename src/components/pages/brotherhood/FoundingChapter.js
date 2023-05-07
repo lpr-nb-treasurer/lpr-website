@@ -4,6 +4,50 @@ import '../../../css/FoundingChapter.css';
 export default () => {
   const title = 'Founding Chapter';
   // const content = 'paragraph';
+  const foundingFathers = [
+    'Founding Fathers',
+    'Sean Aguon',
+    'Jeffrey Chao',
+    'Charleston Chua',
+    'Christopher Doan',
+    'Andy Ha',
+    'Steven Ly',
+    'Hector Miguel',
+    'Tommy On',
+    'Zephyrene Villaluz',
+    'Michael Wang',
+    'Anthony Yi',
+  ];
+  const alphaClass = [
+    'Alpha Class',
+    'Jefferson Bustarde',
+    'Markus Caligdong',
+    'Jeff Creedon',
+    'Steven Flores',
+    'TJ Garcia',
+    'Andrew Lau',
+    'Sang Lee',
+    'Travis Nguyen',
+    'Daniel Taing',
+    'Gabriel Uy',
+    'Anthony Villalba',
+  ];
+  const betaClass = [
+    'Beta Class',
+    'Mark Dave Almachar',
+    'Abraham Cheng',
+    'Michael Chewjalearn',
+    'Justin Choi',
+    'Christopher Frias',
+    'Scotty Huynh',
+    'Kalena Pelekai-Wai',
+    'Daniel Vu',
+  ];
+  const classes = [foundingFathers, alphaClass, betaClass];
+  const displayArr = [];
+  for (let i = 0; i < classes.length; i++) {
+    displayArr.push(<Classes class={classes[i]} key={i}></Classes>);
+  }
   return (
     <main>
       <div className="main-content-wrapper">
@@ -12,47 +56,9 @@ export default () => {
             <strong>{title}</strong>
           </h1>
           <div className="main-content-paragraph-wrapper" id="brothers-list">
+            {displayArr}
             <ul className="founding-chapter-list">
-              Founding Fathers
-              <li>Sean Aguon</li>
-              <li>Jeffrey Chao</li>
-              <li>Charleston Chua</li>
-              <li>Christopher Doan</li>
-              <li>Andy Ha</li>
-              <li>Steven Ly</li>
-              <li>Hector Miguel</li>
-              <li>Tommy On</li>
-              <li>Zephyrene Villaluz</li>
-              <li>Michael Wang</li>
-              <li>Anthony Yi</li>
-            </ul>
-            <ul className="founding-chapter-list">
-              Alpha Class
-              <li>Jefferson Bustarde</li>
-              <li>Markus Caligdong</li>
-              <li>Jeff Creedon</li>
-              <li>Steven Flores</li>
-              <li>TJ Garcia</li>
-              <li>Andrew Lau</li>
-              <li>Sang Lee</li>
-              <li>Travis Nguyen</li>
-              <li>Daniel Taing</li>
-              <li>Gabriel Uy</li>
-              <li>Anthony Villalba</li>
-            </ul>
-            <ul className="founding-chapter-list">
-              Beta Class
-              <li>Mark Dave Almachar</li>
-              <li>Abraham Cheng</li>
-              <li>Michael Chewjalearn</li>
-              <li>Justin Choi</li>
-              <li>Christopher Frias</li>
-              <li>Scotty Huynh</li>
-              <li>Kalena Pelekai-Wai</li>
-              <li>Daniel Vu</li>
-            </ul>
-            <ul className="founding-chapter-list">
-              Gamma Class
+              <div className="founding-chapter-titles">Gamma Class</div>
               <li>Tony Boffelli</li>
               <li>Ronnie Corcuera</li>
               <li>Aren Hirano</li>
@@ -63,7 +69,7 @@ export default () => {
               <li>Kevin Rodriguez</li>
             </ul>
             <ul className="founding-chapter-list">
-              Delta Class
+              <div className="founding-chapter-titles">Delta Class</div>
               <li>Robert Aker</li>
               <li>Emil Almachar</li>
               <li>Kamran Baig</li>
@@ -74,7 +80,7 @@ export default () => {
               <li>David Waihenya</li>
             </ul>
             <ul className="founding-chapter-list">
-              Epsilon Class
+              <div className="founding-chapter-titles">Epsilon Class</div>
               <li>Robert Alvarez</li>
               <li>Deo Bustarde</li>
               <li>Ryan Fong</li>
@@ -89,7 +95,7 @@ export default () => {
               <li>Sonny Tao</li>
             </ul>
             <ul className="founding-chapter-list">
-              Zeta Class
+              <div className="founding-chapter-titles">Zeta Class</div>
               <li>Ian Cabanilla</li>
               <li>Austin Eskola</li>
               <li>Steven Lam</li>
@@ -99,19 +105,19 @@ export default () => {
               <li>Kevin Wang</li>
             </ul>
             <ul className="founding-chapter-list">
-              Eta Class
+              <div className="founding-chapter-titles">Eta Class</div>
               <li>AJ Cabuang</li>
               <li>Andrew Helige</li>
               <li>Tyler Kinney</li>
             </ul>
             <ul className="founding-chapter-list">
-              Theta Class
+              <div className="founding-chapter-titles">Theta Class</div>
               <li>Kavindu Amarasinghe</li>
               <li>RB Rom</li>
               <li>Joshoua Staana</li>
             </ul>
             <ul className="founding-chapter-list">
-              Iota Class
+              <div className="founding-chapter-titles">Iota Class</div>
               <li>Ricardo Aker</li>
               <li>Geoffrey Kirk Alcaraz</li>
               <li>Christian Aranas</li>
@@ -124,7 +130,7 @@ export default () => {
               <li>Jordan Serrano</li>
             </ul>
             <ul className="founding-chapter-list">
-              Kappa Class
+              <div className="founding-chapter-titles">Kappa Class</div>
               <li>Josh Cano</li>
               <li>Jacob Davis</li>
               <li>Gabe Delos Santos</li>
@@ -135,7 +141,7 @@ export default () => {
               <li>Mauricio Solorio</li>
             </ul>
             <ul className="founding-chapter-list">
-              Lambda Class
+              <div className="founding-chapter-titles">Lambda Class</div>
               <li>Raul Esteves</li>
               <li>Hung Le</li>
               <li>Nevin Ly</li>
@@ -144,11 +150,82 @@ export default () => {
               <li>Damian Van</li>
             </ul>
             <ul className="founding-chapter-list">
-              Mu Class
+              <div className="founding-chapter-titles">Mu Class</div>
               <li>Christian Corabo</li>
               <li>Jeff Kwong</li>
               <li>Jericho Sadorra</li>
               <li>Sirasit Punnanithi</li>
+            </ul>
+            <ul className="founding-chapter-list">
+              <div className="founding-chapter-titles">Nu Class</div>
+              <li>Ryan Kim</li>
+              <li>Raphael Perry</li>
+              <li>Kevin Samuel</li>
+            </ul>
+            <ul className="founding-chapter-list">
+              <div className="founding-chapter-titles">Xi Class</div>
+              <li>Juan Carlos Comahig</li>
+              <li>Allister Magalued</li>
+              <li>Ivan Samuel</li>
+            </ul>
+            <ul className="founding-chapter-list">
+              <div className="founding-chapter-titles">Omicron Class</div>
+              <li>Alan Cruz</li>
+              <li>Brendan Hopson</li>
+              <li>Jaemin Lee</li>
+              <li>Benjamin Ly</li>
+              <li>Isaiah Marcello</li>
+              <li>Micah Soga</li>
+              <li>Ethan Tsuneta</li>
+              <li>Tim Wong</li>
+            </ul>
+            <ul className="founding-chapter-list">
+              <div className="founding-chapter-titles">Pi Class</div>
+              <li>Derick Nguyen</li>
+              <li>Alex Pham</li>
+              <li>Joey Pontillas</li>
+            </ul>
+            <ul className="founding-chapter-list">
+              <div className="founding-chapter-titles">Rho Class</div>
+              <li>Saebyuk Lee</li>
+              <li>Nathan Toralba</li>
+              <li>Albert Tran</li>
+            </ul>
+            <ul className="founding-chapter-list">
+              <div className="founding-chapter-titles">Sigma Class</div>
+              <li>Keanu Aloua</li>
+              <li>Marlou DeCastro</li>
+              <li>Justin Fan</li>
+              <li>Josh Insorio</li>
+              <li>Brent Kuruma</li>
+              <li>Brian Nguyen</li>
+              <li>Kenneth Saronghilo</li>
+              <li>Marcus Son</li>
+            </ul>
+            <ul className="founding-chapter-list">
+              <div className="founding-chapter-titles">Tau Class</div>
+              <li>Joseph Cano</li>
+              <li>Vincent Lee</li>
+              <li>Ian Sin</li>
+            </ul>
+            <ul className="founding-chapter-list">
+              <div className="founding-chapter-titles">Upsilon Class</div>
+              <li>Nicholas Hong</li>
+              <li>Junior Macatlang</li>
+              <li>Henry Shi</li>
+              <li>Carlos Vega-Reza</li>
+            </ul>
+            <ul className="founding-chapter-list">
+              <div className="founding-chapter-titles">Phi Class</div>
+              <li>Eadrian Carreon</li>
+              <li>Jeremy Co</li>
+              <li>Dylan Dang</li>
+              <li>Morgan Hunt</li>
+              <li>Gavin Ide</li>
+              <li>Sean Luna</li>
+              <li>Jhamin Mondragon</li>
+              <li>Larsen So</li>
+              <li>Shangqi Xue</li>
             </ul>
           </div>
         </div>
@@ -156,3 +233,17 @@ export default () => {
     </main>
   );
 };
+
+function Classes(props) {
+  console.log(props.class);
+  let classDisplay = [];
+  for (let i = 1; i < props.class.length; i++) {
+    classDisplay.push(<li>{props.class[i]}</li>);
+  }
+  return (
+    <ul className="founding-chapter-list">
+      <div className="founding-chapter-titles">{props.class[0]}</div>
+      {classDisplay}
+    </ul>
+  );
+}
