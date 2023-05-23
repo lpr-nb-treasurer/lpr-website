@@ -7,20 +7,17 @@ export default () => {
   return (
     <main>
       <div className="main-content-wrapper">
-        <div className="text-center text-white">
-          <h1 className="display-3">
-            <strong>{title}</strong>
-          </h1>
-          <div className="main-content-paragraph-wrapper">{content}</div>
-          <div id="about-page-video">
-            <iframe
-              src="https://www.youtube.com/embed/Ox1xyZEDMPc"
-              height="422"
-              title="Lambda Psi Rho Yardshow 2018"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowFullScreen
-            ></iframe>
-          </div>
+        <h1 className="about-us-title">About Us</h1>
+        <div className="main-content-paragraph-wrapper">{content}</div>
+        <div id="about-page-video">
+          <iframe
+            src="https://www.youtube.com/embed/Ox1xyZEDMPc"
+            height="422"
+            title="Lambda Psi Rho Yardshow 2018"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowFullScreen
+            className='about-us-youtube'
+          ></iframe>
         </div>
       </div>
     </main>
