@@ -44,7 +44,7 @@ export default () => {
     'Daniel Vu',
   ];
   const classes = [foundingFathers, alphaClass, betaClass];
-  const displayArr = [];
+  let displayArr = [];
   for (let i = 0; i < classes.length; i++) {
     displayArr.push(<Classes class={classes[i]} key={i}></Classes>);
   }
@@ -235,7 +235,6 @@ export default () => {
 };
 
 function Classes(props) {
-  console.log(props.class);
   let classDisplay = [];
   for (let i = 1; i < props.class.length; i++) {
     classDisplay.push(<li>{props.class[i]}</li>);
