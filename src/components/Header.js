@@ -13,8 +13,8 @@ const Header = () => {
         <Navbar.Brand href={baseURL + '/'}>
           <img
             src={'/lpr-website/cropped-LPR-maroon-2.png'}
-            width="60"
-            height="45"
+            width="25"
+            height="35"
             alt=""
           />
           Lambda Psi Rho

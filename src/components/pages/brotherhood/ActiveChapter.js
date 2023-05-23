@@ -2,7 +2,6 @@ import React from "react";
 
 export default () => {
     const title = 'Active Chapter';
-    const content = '<Insert pic of active chapter>';
     return (
         <main>
             <div className="main-content-wrapper">
@@ -11,7 +10,7 @@ export default () => {
                         <strong>{title}</strong>
                     </h1>
                     <div className="main-content-paragraph-wrapper">
-                        {content}
+                        <img src="/lpr-website/active-house.jpg"></img>
                     </div>
                 </div>
             </div>
