@@ -30,6 +30,7 @@
   padding: 20px;
 }
 
-/* p.content {
-  text-align: left;
-} */
+#ig-profile {
+  display: flex;
+  justify-content: center;
+}
