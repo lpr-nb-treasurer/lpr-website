@@ -1,0 +1,35 @@
+.background-image-container {
+  /* Adjust the height as per your requirement */
+  height: 100vh; 
+
+  /* Background image */
+  background-image: url("images/website-front-banner.jpg");
+
+  /* Cover the entire container */
+  background-size: cover;
+  background-position: center;
+
+  /* Apply the blur effect */
+  filter: blur(8px);
+
+  /* Positioning to make it a background */
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  /* Extend this container behind sibling content */
+  z-index: -1;
+}
+
+.content {
+  position: relative;
+  z-index: 10; /* Higher than the background container's z-index */
+  color: white; /* Ensuring the text is visible on a potentially dark background */
+  padding: 20px;
+}
+
+/* p.content {
+  text-align: left;
+} */
