@@ -8,7 +8,7 @@ permalink: /national
     <div class="container">
     <h1 class="title">National Board</h1>
     <p class="content">
-        under construction
+        <img src="/images/nb.png">
     </p>
     </div>
 </section>

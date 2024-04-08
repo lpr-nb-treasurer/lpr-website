@@ -218,6 +218,20 @@ permalink: /founding
           <li>Larsen So</li>
           <li>Shangqi Xue</li>
         </ul>
+        <ul class="founding-chapter-list">
+          <div class="founding-chapter-titles">Chi Class</div>
+          <li>Cadelina Jordan</li>
+          <li>Fernandez	Chris</li>
+          <li>Gilliam	Cole</li>
+          <li>Palabay	Joel</li>
+          <li>Sicento	Mateo</li>
+          <li>Victoria Lourenz</li>
+        </ul>
+        <ul class="founding-chapter-list">
+          <div class="founding-chapter-titles">Psi Class</div>
+          <li>Oen	Andre</li>
+          <li>Santos Adam</li>
+        </ul>
       </div>
     </div>
   </div>
