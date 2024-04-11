@@ -24,7 +24,7 @@ permalink: /founding
           <li>Anthony Yi</li>
         </ul>
         <ul class="founding-chapter-list">
-          <div class="founding-chapter-titles">Alpha Class</div>
+          <div class="founding-chapter-titles">Α Alpha Class</div>
           <li>Jefferson Bustarde</li>
           <li>Markus Caligdong</li>
           <li>Jeff Creedon</li>
@@ -38,7 +38,7 @@ permalink: /founding
           <li>Anthony Villalba</li>
         </ul>
         <ul class="founding-chapter-list">
-          <div class="founding-chapter-titles">Beta Class</div>
+          <div class="founding-chapter-titles">Β Beta Class</div>
           <li>Mark Dave Almachar</li>
           <li>Abraham Cheng</li>
           <li>Michael Chewjalearn</li>
@@ -49,7 +49,7 @@ permalink: /founding
           <li>Daniel Vu</li>
         </ul>
         <ul class="founding-chapter-list">
-          <div class="founding-chapter-titles">Gamma Class</div>
+          <div class="founding-chapter-titles">Γ Gamma Class</div>
           <li>Tony Boffelli</li>
           <li>Ronnie Corcuera</li>
           <li>Aren Hirano</li>
@@ -60,7 +60,7 @@ permalink: /founding
           <li>Kevin Rodriguez</li>
         </ul>
         <ul class="founding-chapter-list">
-          <div class="founding-chapter-titles">Delta Class</div>
+          <div class="founding-chapter-titles">Δ Delta Class</div>
           <li>Robert Aker</li>
           <li>Emil Almachar</li>
           <li>Kamran Baig</li>
@@ -71,7 +71,7 @@ permalink: /founding
           <li>David Waihenya</li>
         </ul>
         <ul class="founding-chapter-list">
-          <div class="founding-chapter-titles">Epsilon Class</div>
+          <div class="founding-chapter-titles">Ε Epsilon Class</div>
           <li>Robert Alvarez</li>
           <li>Deo Bustarde</li>
           <li>Ryan Fong</li>
@@ -86,7 +86,7 @@ permalink: /founding
           <li>Sonny Tao</li>
         </ul>
         <ul class="founding-chapter-list">
-          <div class="founding-chapter-titles">Zeta Class</div>
+          <div class="founding-chapter-titles">Ζ Zeta Class</div>
           <li>Ian Cabanilla</li>
           <li>Austin Eskola</li>
           <li>Steven Lam</li>
@@ -96,19 +96,19 @@ permalink: /founding
           <li>Kevin Wang</li>
         </ul>
         <ul class="founding-chapter-list">
-          <div class="founding-chapter-titles">Eta Class</div>
+          <div class="founding-chapter-titles">Η Eta Class</div>
           <li>AJ Cabuang</li>
           <li>Andrew Helige</li>
           <li>Tyler Kinney</li>
         </ul>
         <ul class="founding-chapter-list">
-          <div class="founding-chapter-titles">Theta Class</div>
+          <div class="founding-chapter-titles">Θ Theta Class</div>
           <li>Kavindu Amarasinghe</li>
           <li>RB Rom</li>
           <li>Joshoua Staana</li>
         </ul>
         <ul class="founding-chapter-list">
-          <div class="founding-chapter-titles">Iota Class</div>
+          <div class="founding-chapter-titles">Ι Iota Class</div>
           <li>Ricardo Aker</li>
           <li>Geoffrey Kirk Alcaraz</li>
           <li>Christian Aranas</li>
@@ -121,7 +121,7 @@ permalink: /founding
           <li>Jordan Serrano</li>
         </ul>
         <ul class="founding-chapter-list">
-          <div class="founding-chapter-titles">Kappa Class</div>
+          <div class="founding-chapter-titles">Κ Kappa Class</div>
           <li>Josh Cano</li>
           <li>Jacob Davis</li>
           <li>Gabe Delos Santos</li>
@@ -132,7 +132,7 @@ permalink: /founding
           <li>Mauricio Solorio</li>
         </ul>
         <ul class="founding-chapter-list">
-          <div class="founding-chapter-titles">Lambda Class</div>
+          <div class="founding-chapter-titles">Λ Lambda Class</div>
           <li>Raul Esteves</li>
           <li>Hung Le</li>
           <li>Nevin Ly</li>
@@ -141,26 +141,26 @@ permalink: /founding
           <li>Damian Van</li>
         </ul>
         <ul class="founding-chapter-list">
-          <div class="founding-chapter-titles">Mu Class</div>
+          <div class="founding-chapter-titles">Μ Mu Class</div>
           <li>Christian Corabo</li>
           <li>Jeff Kwong</li>
           <li>Jericho Sadorra</li>
           <li>Sirasit Punnanithi</li>
         </ul>
         <ul class="founding-chapter-list">
-          <div class="founding-chapter-titles">Nu Class</div>
+          <div class="founding-chapter-titles">Ν Nu Class</div>
           <li>Ryan Kim</li>
           <li>Raphael Perry</li>
           <li>Kevin Samuel</li>
         </ul>
         <ul class="founding-chapter-list">
-          <div class="founding-chapter-titles">Xi Class</div>
+          <div class="founding-chapter-titles">Ξ Xi Class</div>
           <li>Juan Carlos Comahig</li>
           <li>Allister Magalued</li>
           <li>Ivan Samuel</li>
         </ul>
         <ul class="founding-chapter-list">
-          <div class="founding-chapter-titles">Omicron Class</div>
+          <div class="founding-chapter-titles">Ο Omicron Class</div>
           <li>Alan Cruz</li>
           <li>Brendan Hopson</li>
           <li>Jaemin Lee</li>
@@ -171,19 +171,19 @@ permalink: /founding
           <li>Tim Wong</li>
         </ul>
         <ul class="founding-chapter-list">
-          <div class="founding-chapter-titles">Pi Class</div>
+          <div class="founding-chapter-titles">Π Pi Class</div>
           <li>Derick Nguyen</li>
           <li>Alex Pham</li>
           <li>Joey Pontillas</li>
         </ul>
         <ul class="founding-chapter-list">
-          <div class="founding-chapter-titles">Rho Class</div>
+          <div class="founding-chapter-titles">Ρ Rho Class</div>
           <li>Saebyuk Lee</li>
           <li>Nathan Toralba</li>
           <li>Albert Tran</li>
         </ul>
         <ul class="founding-chapter-list">
-          <div class="founding-chapter-titles">Sigma Class</div>
+          <div class="founding-chapter-titles">Σ Sigma Class</div>
           <li>Keanu Aloua</li>
           <li>Marlou DeCastro</li>
           <li>Justin Fan</li>
@@ -194,20 +194,20 @@ permalink: /founding
           <li>Marcus Son</li>
         </ul>
         <ul class="founding-chapter-list">
-          <div class="founding-chapter-titles">Tau Class</div>
+          <div class="founding-chapter-titles">Τ Tau Class</div>
           <li>Joseph Cano</li>
           <li>Vincent Lee</li>
           <li>Ian Sin</li>
         </ul>
         <ul class="founding-chapter-list">
-          <div class="founding-chapter-titles">Upsilon Class</div>
+          <div class="founding-chapter-titles">Υ Upsilon Class</div>
           <li>Nicholas Hong</li>
           <li>Junior Macatlang</li>
           <li>Henry Shi</li>
           <li>Carlos Vega-Reza</li>
         </ul>
         <ul class="founding-chapter-list">
-          <div class="founding-chapter-titles">Phi Class</div>
+          <div class="founding-chapter-titles">Φ Phi Class</div>
           <li>Eadrian Carreon</li>
           <li>Jeremy Co</li>
           <li>Dylan Dang</li>
@@ -219,18 +219,18 @@ permalink: /founding
           <li>Shangqi Xue</li>
         </ul>
         <ul class="founding-chapter-list">
-          <div class="founding-chapter-titles">Chi Class</div>
-          <li>Cadelina Jordan</li>
-          <li>Fernandez	Chris</li>
-          <li>Gilliam	Cole</li>
-          <li>Palabay	Joel</li>
-          <li>Sicento	Mateo</li>
-          <li>Victoria Lourenz</li>
+          <div class="founding-chapter-titles">Χ Chi Class</div>
+          <li>Jordan Cadelina </li>
+          <li>Chris Fernandez	</li>
+          <li>Cole Gilliam	</li>
+          <li>Joel Palabay	</li>
+          <li>Mateo Sicento	</li>
+          <li>Lourenz Victoria </li>
         </ul>
         <ul class="founding-chapter-list">
-          <div class="founding-chapter-titles">Psi Class</div>
-          <li>Oen	Andre</li>
-          <li>Santos Adam</li>
+          <div class="founding-chapter-titles">Ψ Psi Class</div>
+          <li>Andre Oen	</li>
+          <li>Adam Santos </li>
         </ul>
       </div>
     </div>
